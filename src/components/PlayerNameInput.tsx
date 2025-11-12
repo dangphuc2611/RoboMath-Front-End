@@ -107,7 +107,7 @@ export function PlayerNameInput({ onBack, onContinue }: PlayerNameInputProps) {
               style={{
                 textShadow: '0 0 30px rgba(59, 130, 246, 0.5)',
               }}>
-              Welcome, Young Explorer!
+              Chào mừng phi hành gia!
             </span>
           </motion.h2>
 
@@ -118,7 +118,8 @@ export function PlayerNameInput({ onBack, onContinue }: PlayerNameInputProps) {
             className="text-xl text-cyan-200 mb-12"
             style={{ textShadow: '0 0 10px rgba(34, 211, 238, 0.4)' }}
           >
-            What should we call you on this cosmic adventure?
+            {/* What should we call you on this cosmic adventure? */}
+            Chúng tôi sẽ gọi bạn là gì trong cuộc phiêu lưu vũ trụ này?
           </motion.p>
 
           {/* Input Field */}
@@ -137,7 +138,7 @@ export function PlayerNameInput({ onBack, onContinue }: PlayerNameInputProps) {
                   setError('');
                 }}
                 onKeyPress={(e) => e.key === 'Enter' && handleStartAdventure()}
-                placeholder="Enter your astronaut name..."
+                placeholder="Nhập tên phi hành gia của bạn..."
                 maxLength={20}
                 className="w-full px-8 py-5 text-2xl text-center text-cyan-100 bg-gradient-to-br from-cyan-500/10 to-purple-500/10 backdrop-blur-md border-2 border-cyan-400/40 rounded-2xl focus:outline-none focus:border-cyan-400 transition-all"
                 style={{
@@ -187,7 +188,7 @@ export function PlayerNameInput({ onBack, onContinue }: PlayerNameInputProps) {
               size="large"
               onClick={handleStartAdventure}
             >
-              🚀 Begin Adventure
+              🚀 Bắt Đầu Du Hành
             </GameButton>
           </motion.div>
 
@@ -199,7 +200,7 @@ export function PlayerNameInput({ onBack, onContinue }: PlayerNameInputProps) {
             className="mt-12 p-4 bg-purple-500/10 backdrop-blur-sm rounded-xl border border-purple-400/20"
           >
             <p className="text-cyan-200 text-sm">
-              💡 <span className="text-purple-300">Fun Fact:</span> There are more stars in the universe than grains of sand on all Earth's beaches!
+              💡 <span className="text-purple-300">Fun Fact:</span> Ở ngoài vũ trụ có nhiều ngôi sao hơn số hạt cát trên tất cả các bãi biển trên Trái Đất!
             </p>
           </motion.div>
         </motion.div>

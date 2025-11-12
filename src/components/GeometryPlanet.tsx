@@ -22,7 +22,7 @@ interface Lesson {
 const lessons: Lesson[] = [
   {
     id: 1,
-    title: 'Quadrilaterals',
+    title: 'Tứ giác',
     icon: Square,
     angle: 0,
     color: 'from-blue-400 to-cyan-300',
@@ -30,7 +30,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 2,
-    title: 'Thales Theorem',
+    title: 'Định lý Thales',
     icon: Ruler,
     angle: 72,
     color: 'from-cyan-400 to-blue-400',
@@ -38,7 +38,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 3,
-    title: 'Pythagorean Theorem',
+    title: 'Định lý Pythagore',
     icon: Triangle,
     angle: 144,
     color: 'from-blue-300 to-sky-400',
@@ -46,7 +46,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 4,
-    title: 'Triangle Medians',
+    title: 'Đường trung bình tam giác',
     icon: Move,
     angle: 216,
     color: 'from-sky-400 to-blue-300',
@@ -54,7 +54,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 5,
-    title: 'Angle Bisectors',
+    title: 'Đường phân giác tam giác',
     icon: Compass,
     angle: 288,
     color: 'from-blue-500 to-cyan-400',
@@ -192,11 +192,11 @@ export function GeometryPlanet({ onBack, playerName }: GeometryPlanetProps) {
         <h1 className="text-4xl md:text-5xl mb-2">
           <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-sky-400 bg-clip-text text-transparent"
             style={{ textShadow: '0 0 40px rgba(59, 130, 246, 0.6)' }}>
-            🌍 Geometry Planet
+            🌍 Hành Tinh Hình Học
           </span>
         </h1>
         <p className="text-blue-300 text-lg" style={{ textShadow: '0 0 10px rgba(59, 130, 246, 0.5)' }}>
-          Choose your geometric adventure
+          Chọn cuộc phiêu lưu hình học của bạn
         </p>
       </motion.div>
 
@@ -399,11 +399,11 @@ export function GeometryPlanet({ onBack, playerName }: GeometryPlanetProps) {
             <div className="relative z-10">
               <p className="text-lg text-blue-100 leading-relaxed mb-2"
                 style={{ textShadow: '0 0 10px rgba(59, 130, 246, 0.5)' }}>
-                Great choice! Let's explore Geometry together
+                Lựa chọn tuyệt vời! Cùng nhau tìm hiểu Hình học
               </p>
               <p className="text-base text-blue-200/90"
                 style={{ textShadow: '0 0 8px rgba(59, 130, 246, 0.4)' }}>
-                and uncover its secrets!
+                và khám phá bí mật của nó!
               </p>
             </div>
           </div>
@@ -426,7 +426,7 @@ export function GeometryPlanet({ onBack, playerName }: GeometryPlanetProps) {
             className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20"
           >
             <GameButton variant="primary" size="large">
-              🚀 Start Lesson
+              🚀 Bắt Đầu Bài Học
             </GameButton>
           </motion.div>
         )}

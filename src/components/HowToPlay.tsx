@@ -82,7 +82,7 @@ export function HowToPlay({ onBack, onNext }: HowToPlayProps) {
           >
             <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent"
               style={{ textShadow: '0 0 30px rgba(59, 130, 246, 0.5)' }}>
-              How to Play
+               Luật chơi
             </span>
           </motion.h1>
 

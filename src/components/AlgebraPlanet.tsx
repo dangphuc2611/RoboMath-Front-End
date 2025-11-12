@@ -22,7 +22,7 @@ interface Lesson {
 const lessons: Lesson[] = [
   {
     id: 1,
-    title: 'Monomials & Polynomials',
+    title: 'Đơn thức & Đa thức',
     icon: 'x²',
     angle: 0,
     color: 'from-cyan-400 to-blue-500',
@@ -30,7 +30,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 2,
-    title: 'Algebraic Identities',
+    title: 'Hằng đẳng thức',
     icon: '=',
     angle: 72,
     color: 'from-blue-400 to-cyan-500',
@@ -38,7 +38,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 3,
-    title: 'Factorization of Polynomials',
+    title: 'Phân tích đa thức',
     icon: '()',
     angle: 144,
     color: 'from-cyan-500 to-teal-400',
@@ -46,7 +46,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 4,
-    title: 'Rational Expressions',
+    title: 'Phân thức đại số',
     icon: '÷',
     angle: 216,
     color: 'from-teal-400 to-cyan-400',
@@ -54,7 +54,7 @@ const lessons: Lesson[] = [
   },
   {
     id: 5,
-    title: 'Probability',
+    title: 'Xác suất',
     icon: 'P',
     angle: 288,
     color: 'from-blue-500 to-cyan-600',
@@ -183,11 +183,11 @@ export function AlgebraPlanet({ onBack, playerName }: AlgebraPlanetProps) {
         <h1 className="text-4xl md:text-5xl mb-2">
           <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent"
             style={{ textShadow: '0 0 40px rgba(34, 211, 238, 0.6)' }}>
-            🌕 Algebra Planet
+            🌕 Hành Tinh Đại Số
           </span>
         </h1>
         <p className="text-cyan-300 text-lg" style={{ textShadow: '0 0 10px rgba(34, 211, 238, 0.5)' }}>
-          Choose your lesson to begin
+          Chọn bài học để bắt đầu!
         </p>
       </motion.div>
 
@@ -342,11 +342,11 @@ export function AlgebraPlanet({ onBack, playerName }: AlgebraPlanetProps) {
             <div className="relative z-10">
               <p className="text-lg text-cyan-100 leading-relaxed mb-2"
                 style={{ textShadow: '0 0 10px rgba(34, 211, 238, 0.5)' }}>
-                Excellent! Let's begin our Algebra journey!
+                Tuyệt vời! Hãy bắt đầu hành trình Đại số nhé!
               </p>
               <p className="text-base text-cyan-200/90"
                 style={{ textShadow: '0 0 8px rgba(34, 211, 238, 0.4)' }}>
-                Get ready to power up your Math Station!
+                Hãy sẵn sàng để khởi động Math Station của bạn!
               </p>
             </div>
           </div>
@@ -369,7 +369,7 @@ export function AlgebraPlanet({ onBack, playerName }: AlgebraPlanetProps) {
             className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20"
           >
             <GameButton variant="primary" size="large">
-              🚀 Start Lesson
+              🚀 Bắt Đầu Bài Học
             </GameButton>
           </motion.div>
         )}

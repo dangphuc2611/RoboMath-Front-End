@@ -112,7 +112,7 @@ export default function App() {
               textShadow: '0 0 20px rgba(103, 232, 249, 0.6), 0 0 40px rgba(103, 232, 249, 0.3)'
             }}
           >
-            Explore the Math Universe
+             Khám Phá Vũ Trụ Toán Học Cùng RoboMath!
           </motion.p>
         </motion.div>
 
@@ -133,18 +133,18 @@ export default function App() {
 
           {/* Main Start Button */}
           <GameButton variant="primary" size="large" onClick={() => setScreen('name-input')}>
-            🚀 Start Journey
+            🚀 Bắt Đầu Khám Phá!
           </GameButton>
 
           {/* Secondary Buttons */}
           <div className="flex gap-4">
             <GameButton variant="secondary" size="small" onClick={() => setScreen('how-to-play')}>
               <HelpCircle className="w-5 h-5 mr-2" />
-              How to Play
+              Luật chơi
             </GameButton>
             <GameButton variant="secondary" size="small">
               <Trophy className="w-5 h-5 mr-2" />
-              Leaderboard
+              BXH
             </GameButton>
           </div>
         </motion.div>

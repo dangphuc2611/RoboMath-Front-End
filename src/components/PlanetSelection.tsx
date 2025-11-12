@@ -29,31 +29,31 @@ const planets: Planet[] = [
     id: 'algebra',
     name: 'Algebra',
     emoji: '🌕',
-    label: 'Algebra Planet',
-    subtitle: 'Monomials, Polynomials, Identities, Rational Expressions, Probability.',
+    label: 'Hành Tinh Đại Số',
+    subtitle: 'Đơn thức & Đa Thức, Hằng đẳng thức, Phân tích đa thức, Phân tích đa thức, Xác suất.',
     color: 'from-cyan-400 via-blue-400 to-green-400',
     glowColor: 'rgba(34, 211, 238, 0.6)',
-    position: { x: '15%', y: '35%' }
+    position: { x: '5%', y: '35%' }
   },
   {
     id: 'geometry',
     name: 'Geometry',
     emoji: '🌍',
-    label: 'Geometry Planet',
-    subtitle: 'Quadrilaterals, Thales Theorem, Pythagorean Theorem, Medians, Angle Bisectors.',
+    label: 'Hành Tinh Hình Học',
+    subtitle: 'Tứ Giác, Định lý Thales, Định lý Pythagoras, Đường trung bình, Đường phân giác.',
     color: 'from-blue-500 via-green-500 to-emerald-400',
     glowColor: 'rgba(34, 197, 94, 0.6)',
-    position: { x: '50%', y: '40%' }
+    position: { x: '40%', y: '40%' }
   },
   {
     id: 'challenge',
     name: 'Challenge',
     emoji: '🌑',
-    label: 'Challenge Planet',
-    subtitle: 'Mixed questions – Hard level – Algebra + Geometry.',
+    label: 'Hành Tinh Thử Thách',
+    subtitle: 'Câu hỏi ngẫu nhiên từ tất cả các chủ đề Toán Học.',
     color: 'from-red-900 via-purple-900 to-black',
     glowColor: 'rgba(220, 38, 38, 0.8)',
-    position: { x: '75%', y: '35%' }
+    position: { x: '70%', y: '35%' }
   }
 ];
 
@@ -115,12 +115,12 @@ export function PlanetSelection({ onBack, playerName, onSelectPlanet }: PlanetSe
         <h1 className="text-4xl md:text-5xl mb-2">
           <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent"
             style={{ textShadow: '0 0 30px rgba(59, 130, 246, 0.5)' }}>
-            Choose Your Destination
+            Chọn Điểm Đến Của Bạn!
           </span>
         </h1>
         {playerName && (
           <p className="text-cyan-300 text-lg" style={{ textShadow: '0 0 10px rgba(34, 211, 238, 0.5)' }}>
-            Welcome, {playerName}!
+            Chào Mừng, {playerName}!
           </p>
         )}
       </motion.div>
@@ -175,11 +175,11 @@ export function PlanetSelection({ onBack, playerName, onSelectPlanet }: PlanetSe
             <div className="relative z-10">
               <p className="text-lg text-cyan-100 leading-relaxed mb-2"
                 style={{ textShadow: '0 0 10px rgba(34, 211, 238, 0.5)' }}>
-                Choose the planet you want to explore!
+                 Chọn hành tinh mà bạn muốn khám phá!
               </p>
               <p className="text-base text-cyan-200/90"
                 style={{ textShadow: '0 0 8px rgba(34, 211, 238, 0.4)' }}>
-                Each one is a new math adventure!
+                Mỗi hành tinh là một cuộc phiêu lưu toán học mới!
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@ export function PlanetSelection({ onBack, playerName, onSelectPlanet }: PlanetSe
             className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20"
           >
             <GameButton variant="primary" size="large">
-              🚀 Start Mission
+              🚀 Bắt Đầu Bài Học
             </GameButton>
           </motion.div>
         )}

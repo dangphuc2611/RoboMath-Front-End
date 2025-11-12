@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { useState, useEffect } from 'react';
 
 export function DialogueBox() {
-  const fullMessage = "Hello astronaut! The Math Station is running out of energy. Let's restore it together by conquering math challenges!";
+  const fullMessage = "Xin chào phi hành gia! Trạm Toán học vũ trụ đang cạn năng lượng. Hãy cùng mình khôi phục năng lượng bằng cách chinh phục các thử thách Toán học nhé!";
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
